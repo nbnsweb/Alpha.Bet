@@ -1,0 +1,17 @@
+{
+    "name": "nava-bharath-quiz-app",
+    "version": "1.0.0",
+    "description": "Deployment-ready version of the Google Antigravity Quiz App",
+    "main": "server/index.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "client-install": "cd client && npm install",
+        "server-install": "cd server && npm install",
+        "install-all": "npm run server-install && npm run client-install",
+        "dev": "npm run start & cd client && npm run dev",
+        "build": "cd client && npm run build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
